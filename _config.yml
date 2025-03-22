@@ -19,16 +19,18 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Přístupnost 100
-email: martin+pristupnost100@reknisioweb.cz
+email: "" # martin+pristupnost100@reknisioweb.cz
 description: >- # this means to ignore newlines until "baseurl:"
-  Sto dnů přístupnosti webu do účinnosti evropského zákona o přístupnosti.
+  Sto dnů tipů k přístupnosti webu do účinnosti evropského zákona o přístupnosti.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://pristupnost100.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pristupnost100.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: reknisioweb
-github_username:  garcon
+github_username:  ""
 
 # Build settings
 theme: minima
+head_custom: includes/head-custom.html
+
 plugins:
   - jekyll-feed
 
@@ -46,8 +48,12 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - netlify.toml
   - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+include:
+  - rss.xml
