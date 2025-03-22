@@ -1,0 +1,13 @@
+name: Scheduled Netlify Rebuild
+
+on:
+  schedule:
+    - cron: '0 7 * * *' # Každý den v 8:00 (v Cronu je UTC čas)
+
+jobs:
+  trigger-netlify-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Netlify build hook
+        run: |
+          curl -X POST ${{ secrets.NETLIFY_BUILD_HOOK }}

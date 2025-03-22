@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Tip pro 97. den"
+date:   2025-03-23 07:59:00 +0100
+categories: a11y tip
+---
+
+#Přístupnost100: Pokud odkaz změní barvu po návštěvě, zachovejte stále dostatečný kontrast a odlišení od okolního textu.
+
+https://www.w3.org/TR/WCAG22/#use-of-color 
+
+Do účinnosti zákona o přístupnosti zbývá 97 dnů. Často stačí drobnost, abyste lidem zlepšili zážitek z webu.

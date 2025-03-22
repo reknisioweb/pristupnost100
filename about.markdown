@@ -1,18 +1,15 @@
 ---
 layout: page
-title: About
+title: O webu Přístupnost 100
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Web **Přístupnost 100** každý den až do 28. června 2025 zveřejŇuje krátký tip k přístupnosti webu.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Tipy najdete také na našich sociálních sítích Twitter, [Bluesky][Bluesky], [Threads][Threads], [Facebook][Facebook] a [Linkedin][Linkedin].
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[Twitter] https://twitter.com/reknisioweb
+[Bluesky] https://bsky.app/profile/reknisioweb.cz
+[Threads] https://www.threads.net/@reknisioweb
+[Facebook] https://www.facebook.com/Reknisioweb/
+[Linkedin] https://www.linkedin.com/company/reknisioweb/
