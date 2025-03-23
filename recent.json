@@ -8,3 +8,5 @@ layout: none
   "link": {{ post.wcag | jsonify }},
   "countdown": {{ "Do účinnosti zákona o přístupnosti zbývá " | append: post.days | append: " dnů." | jsonify }}
 }
+
+  
