@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 96. den"
+date:   2025-03-24 07:59:00 +0100
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Strukturovaný obsah (seznamy, tabulky) značkujte odpovídajícími HTML prvky (`<ul>/<ol>` pro seznamy, `<table>` pro tabulky).
+wcag: https://www.w3.org/TR/WCAG22/#info-and-relationships
+days: 96
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+Do účinnosti zákona o přístupnosti zbývá {{ page.days }} dnů.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
