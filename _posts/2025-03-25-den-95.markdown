@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 95. den"
+date:   2025-03-25 07:59:00 +0100
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Každé vstupní pole formuláře propojte s popiskem pomocí atributu `for` a odpovídajícího `id` (nebo obalte vstup elementem `<label>`).
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions
+days: 95
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+Do účinnosti zákona o přístupnosti zbývá {{ page.days }} dnů.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
