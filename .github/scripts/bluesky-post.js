@@ -3,7 +3,8 @@
 
 import fs from 'fs/promises'; // není aktuálně využito, ale může sloužit pro budoucí rozšíření
 import axios from 'axios'; // pro HTTP požadavky
-import { BskyAgent } from '@atproto/api'; // oficiální knihovna pro Bluesky API
+import pkg from '@atproto/api'; // CommonJS import pro Bluesky API knihovnu
+const { BskyAgent } = pkg;
 
 // URL ke generovanému JSON souboru s obsahem příspěvku
 const JSON_URL = 'https://pristupnost100.netlify.app/recent.json';
