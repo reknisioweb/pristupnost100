@@ -16,12 +16,14 @@ const BLUESKY_PASSWORD = process.env.BLUESKY_PASSWORD;
  * Zkrátí řetězec na maximální počet grafémů (uživatelsky viditelných znaků),
  * přičemž ukončí výstup vždy na konci celého slova. Pokud dojde ke zkrácení,
  * výsledek je zakončen výpustkem '…'.
+ * Pokud je `preserve` nastaven, zaručí, že daný podřetězec zůstane celý nebo bude odstraněn.
  *
  * @param {string} text - Vstupní text ke zkrácení.
  * @param {number} [max=300] - Maximální počet grafémů.
+ * @param {string[]} [preserve=[]] - Pole řetězců, které musí zůstat celé nebo být vynechány.
  * @returns {string} Zkrácený text vhodný pro zveřejnění.
  */
-function truncateToMaxGraphemes(text, max = 300) {
+function truncateToMaxGraphemes(text, max = 300, preserve = []) {
   const segmenter = new Intl.Segmenter('cs', { granularity: 'grapheme' });
   const graphemes = [...segmenter.segment(text)];
 
@@ -29,17 +31,29 @@ function truncateToMaxGraphemes(text, max = 300) {
     return text; // text se vejde, není třeba upravovat
   }
 
-  // Zkrácení na max. délku –1 kvůli výpustku
-  const truncated = graphemes.slice(0, max - 1).map(s => s.segment).join('');
+  let truncated = graphemes.slice(0, max - 1).map(s => s.segment).join('');
+  let lastSpace = truncated.lastIndexOf(' ');
+  if (lastSpace === -1) lastSpace = max - 1;
+  truncated = truncated.slice(0, lastSpace) + '…';
 
-  // Najdeme poslední mezeru a text zkrátíme na celé slovo
-  const lastSpace = truncated.lastIndexOf(' ');
-
-  if (lastSpace === -1) {
-    return truncated + '…'; // pokud není mezera, přidáme výpustek rovnou
+  for (const phrase of preserve) {
+    if (truncated.includes(phrase)) continue;
+    if (text.includes(phrase)) {
+      // Pokud byl řetězec odstraněn, vynecháme ho úplně
+      truncated = truncated.replace(phrase, '');
+    }
   }
 
-  return truncated.slice(0, lastSpace) + '…';
+  return truncated;
+}
+
+/**
+ * Spočítá počet bajtů v UTF-8 řetězci.
+ * @param {string} str - Řetězec.
+ * @returns {number} Počet bajtů.
+ */
+function byteLength(str) {
+  return Buffer.byteLength(str, 'utf8');
 }
 
 /**
@@ -48,7 +62,7 @@ function truncateToMaxGraphemes(text, max = 300) {
  * 2. Vytvoří text příspěvku dle šablony
  * 3. Přihlásí se do služby Bluesky pomocí API klienta
  * 4. Ověří délku textu a případně ho zkrátí
- * 5. Odesílá příspěvek přes API
+ * 5. Odesílá příspěvek přes API včetně deklarace hashtagu a odkazu
  *
  * @returns {Promise<void>} Vrací promisu, která se vyřeší po dokončení procesu nebo selhání.
  */
@@ -60,14 +74,39 @@ const run = async () => {
 
     // 2. Sestav text příspěvku podle šablony
     const rawText = `#Přístupnost100: ${tip}\n\n${link}\n\n${countdown}`;
-    const postText = truncateToMaxGraphemes(rawText, 300);
+    const postText = truncateToMaxGraphemes(rawText, 300, [link]);
 
-    // 3. Přihlas se do Bluesky pomocí API agenta
+    let facets = [];
+
+    // 3. Přidej hashtag facet
+    const tagText = '#Přístupnost100';
+    const tagIndex = postText.indexOf(tagText);
+    if (tagIndex !== -1) {
+      const byteStart = byteLength(postText.slice(0, tagIndex));
+      const byteEnd = byteStart + byteLength(tagText);
+      facets.push({
+        features: [{ type: 'app.bsky.richtext.facet#tag', tag: 'Přístupnost100' }],
+        index: { byteStart, byteEnd },
+      });
+    }
+
+    // 4. Přidej odkaz facet (URL), pouze pokud je celý obsažen v textu
+    if (link && postText.includes(link)) {
+      const urlIndex = postText.indexOf(link);
+      const byteStart = byteLength(postText.slice(0, urlIndex));
+      const byteEnd = byteStart + byteLength(link);
+      facets.push({
+        features: [{ type: 'app.bsky.richtext.facet#link', uri: link }],
+        index: { byteStart, byteEnd },
+      });
+    }
+
+    // 5. Přihlas se do Bluesky pomocí API agenta
     const agent = new BskyAgent({ service: 'https://bsky.social' });
     await agent.login({ identifier: BLUESKY_IDENTIFIER, password: BLUESKY_PASSWORD });
 
-    // 4. Odeslání příspěvku
-    await agent.post({ text: postText });
+    // 6. Odeslání příspěvku s deklarací tagu a odkazu
+    await agent.post({ text: postText, facets });
 
     console.log('Příspěvek byl úspěšně publikován.');
   } catch (error) {
