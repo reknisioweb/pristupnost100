@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 92. den"
+date:   2025-03-28 07:59:00 +0100
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    U textu vkládaného do videa (např. titulky přímo ve videu) dbejte na dostatečnou velikost a kontrast, aby byl čitelný.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum
+days: 92
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+Do účinnosti zákona o přístupnosti zbývá {{ page.days }} dnů.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"

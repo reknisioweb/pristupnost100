@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 91. den"
+date:   2025-03-29 07:59:00 +0100
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Poskytujte ovládací prvky pro média (přehrát/pozastavit, ovládání hlasitosti, zapnutí titulků) přístupné z klávesnice i pro čtečky obrazovky.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/keyboard
+days: 91
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+Do účinnosti zákona o přístupnosti zbývá {{ page.days }} dnů.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
