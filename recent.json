@@ -6,7 +6,7 @@ layout: none
 {
   "tip": {{ "#Přístupnost100: " | append: post.tip | jsonify }},
   "link": {{ post.wcag | jsonify }},
-  "countdown": {{ "Do účinnosti zákona o přístupnosti zbývá " | append: post.days | append: " dnů." | jsonify }}
+  "countdown": {{ "Do účinnosti zákona o přístupnosti zbývá " | append: post.days | append: " dnů. Často stačí drobnost, abyste lidem zlepšili zážitek z webu." | jsonify }}
 }
 
   
