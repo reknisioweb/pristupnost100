@@ -3,6 +3,7 @@ name: Scheduled Netlify Rebuild
 on:
   schedule:
     - cron: '0 7 * * *' # Každý den v 8:00 (v Cronu je UTC čas)
+  workflow_dispatch: # manuální spuštění
 
 jobs:
   trigger-netlify-build:
