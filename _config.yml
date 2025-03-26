@@ -45,11 +45,14 @@ plugins:
 exclude:
   - .sass-cache/
   - .jekyll-cache/
+  - .github/
   - gemfiles/
   - Gemfile
   - Gemfile.lock
   - netlify.toml
   - node_modules/
+  - package.json
+  - package-lock.json
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/

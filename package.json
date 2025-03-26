@@ -1,0 +1,9 @@
+{
+    "name": "pristupnost100",
+    "type": "module",
+    "dependencies": {
+      "@atproto/api": "^0.10.0",
+      "axios": "^1.6.0"
+    }
+  }
+  
