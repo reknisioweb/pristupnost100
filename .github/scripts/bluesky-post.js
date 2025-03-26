@@ -71,7 +71,7 @@ const run = async () => {
     const response = await axios.get(JSON_URL);
     const { tip, link, countdown } = response.data;
 
-    const rawText = `#Přístupnost100: ${tip}\n\n${link}\n\n${countdown}`;
+    const rawText = `${tip}\n\n${link}\n\n${countdown}`;
     const postText = truncateToMaxGraphemes(rawText, 300, [link]);
 
     const agent = new BskyAgent({ service: 'https://bsky.social' });

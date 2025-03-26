@@ -4,7 +4,7 @@ layout: none
 
 {% assign post = site.posts[0] %}
 {
-  "tip": {{ "#Přístupnost: " | append: post.tip | jsonify }},
+  "tip": {{ "#Přístupnost100: " | append: post.tip | jsonify }},
   "link": {{ post.wcag | jsonify }},
   "countdown": {{ "Do účinnosti zákona o přístupnosti zbývá " | append: post.days | append: " dnů." | jsonify }}
 }
