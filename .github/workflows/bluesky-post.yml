@@ -3,7 +3,7 @@ name: Publish to Bluesky
 
 on:
   schedule:
-    - cron: '15 7 * * *' # 15 minut po spuštění Netlify buildu
+    - cron: '15 6 * * *' # 15 minut po spuštění Netlify buildu
   workflow_dispatch: # manuální spuštění
 
 jobs:
