@@ -6,7 +6,7 @@ categories: ""
 tags: [a11y, tip, Přístupnost100]
 tip: >- 
     Při volbě barvy pozadí stránky zamezte extrémnímu oslnění a zachovejte dobrý kontrast s textem (např. nepoužívejte velmi světlé pozadí a bledě šedé písmo).
-wcag: https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum
 days: 89
 ---
 **#Přístupnost100: {{ page.tip }}**
