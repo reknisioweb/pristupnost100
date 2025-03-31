@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Tip pro 81. den"
-date:   2025-04-08 07:59:00 +0200
+title:  "Tip pro 80. den"
+date:   2025-04-09 07:59:00 +0200
 categories: ""
 tags: [a11y, tip, Přístupnost100]
 tip: >- 
-    Umožněte zastavit nebo vypnout podkresovou hudbu v aplikaci, aby nerušila srozumitelnost mluveného slova.
-wcag: https://www.w3.org/WAI/WCAG22/Understanding/audio-control
-days: 81
+    Nabídněte alternativní způsoby kontaktu než telefonický hovor – například e-mail, SMS nebo online chat – pro uživatele, kteří nemohou telefonovat.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/keyboard
+days: 80
 ---
 **#Přístupnost100: {{ page.tip }}**
 
