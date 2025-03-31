@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 87. den"
+date:   2025-04-02 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Ujistěte se, že titulky obsahují nejen mluvený text, ale i důležité zvuky a zvukové efekty (např. hudba, potlesk).
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded
+days: 87
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+Do účinnosti zákona o přístupnosti zbývá {{ page.days }} dnů. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"

@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 82. den"
+date:   2025-04-07 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Umožněte ovládání hlasitosti u vložených médií (aby uživatelé mohli přizpůsobit zvuk svým potřebám nebo ho úplně ztlumit).
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/audio-control
+days: 82
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+Do účinnosti zákona o přístupnosti zbývá {{ page.days }} dnů. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"

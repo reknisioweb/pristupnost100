@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 84. den"
+date:   2025-04-05 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Zajistěte, že všechny důležité informace sdělené zvukem (např. alarm, oznamovací tón) jsou dostupné i vizuálně (např. textovou zprávou nebo ikonou).
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/sensory-characteristics
+days: 84
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+Do účinnosti zákona o přístupnosti zbývá {{ page.days }} dnů. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
