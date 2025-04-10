@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 78. den"
+date:   2025-04-10 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Označte jasně všechny ovládací prvky související se zvukem standardními ikonami (např. reproduktor pro zvuk, přeškrtnutý reproduktor pro ztlumení), aby byly srozumitelné.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions
+days: 78
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+Do účinnosti zákona o přístupnosti zbývá {{ page.days }} dnů.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
