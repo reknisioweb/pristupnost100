@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 72. den"
+date:   2025-04-17 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    U formulářů umožněte odeslání i klávesnicí (např. klávesou Enter z pole formuláře) – nespoléhejte jen na kliknutí myší na tlačítko.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/keyboard
+days: 72
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"

@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 69. den"
+date:   2025-04-20 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Pokud funkce vyžaduje táhnutí prvku (drag & drop), nabídněte alternativu (např. tlačítka pro přesun položky nahoru/dolů nebo výběr cíle z menu).
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements
+days: 69
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"

@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 73. den"
+date:   2025-04-16 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Na začátek stránky přidejte odkaz „Přeskočit na hlavní obsah“, který umožní přeskočit opakující se navigaci při ovládání klávesnicí.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks
+days: 73
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"

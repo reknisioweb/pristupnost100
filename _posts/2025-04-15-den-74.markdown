@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 74. den"
+date:   2025-04-15 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Nastavte pořadí focusu (tabindex) tak, aby odpovídalo logickému pořadí prvků na stránce; vyhněte se používání nenulových hodnot tabindex, pokud to není nutné.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/focus-order
+days: 74
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
