@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Tip pro 70. den"
-date:   2025-04-19 07:59:00 +0200
+title:  "Tip pro 69. den"
+date:   2025-04-20 07:59:00 +0200
 categories: ""
 tags: [a11y, tip, Přístupnost100]
 tip: >- 
-    Pokud funkce vyžaduje táhnutí prvku (drag & drop), nabídněte alternativu (např. tlačítka pro přesun položky nahoru/dolů nebo výběr cíle z menu).
-wcag: https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements
-days: 70
+    Nenuťte uživatele provádět složitá gesta nebo víceklikové operace – každá akce by měla jít provést jednoduchým kliknutím či klepnutím.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures
+days: 69
 ---
 **#Přístupnost100: {{ page.tip }}**
 
