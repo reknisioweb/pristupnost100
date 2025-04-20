@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 64. den"
+date:   2025-04-25 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Vyhněte se nestandardním gestům, která mohou kolidovat se systémovým ovládáním nebo asistivními funkcemi (např. tříprstová gesta rezervují mobilní čtečky pro své ovládání).
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures
+days: 64
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"

@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 63. den"
+date:   2025-04-26 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Pokud aplikace obsahuje interaktivní hru nebo úkoly na čas, nabídněte režim bez časového omezení nebo s možností pauzy pro uživatele s pomalejší reakcí.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable
+days: 63
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"

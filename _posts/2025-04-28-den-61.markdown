@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 61. den"
+date:   2025-04-28 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Při implementaci událostí myši/doteku neprovádějte akce ihned na mousedown/touchstart – počkejte na mouseup/touchend, aby měl uživatel možnost pohybem prstu akci zrušit.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/pointer-cancellation
+days: 61
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
