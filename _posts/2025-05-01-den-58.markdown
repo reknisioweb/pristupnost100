@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 58. den"
+date:   2025-05-01 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Udržujte text v aktivním (činném) tvaru a pište přímo k věci – snižuje to kognitivní zátěž při čtení.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/reading-level
+days: 58
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
