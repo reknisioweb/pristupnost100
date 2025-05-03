@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 55. den"
+date:   2025-05-04 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Pokud je to možné, ověřte důležité akce nejen jednou, ale dvěma způsoby – např. barevně zvýrazněte chybu a zároveň zobrazte ikonu či textové upozornění.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/use-of-color
+days: 55
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
+5

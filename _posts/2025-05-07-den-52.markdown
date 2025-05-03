@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 52. den"
+date:   2025-05-07 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Při návrhu obsahu pro uživatele s kognitivním postižením zvažte využití jednoduchých obrázků nebo piktogramů spolu s textem pro ilustraci složitých konceptů.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships
+days: 52
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
+5

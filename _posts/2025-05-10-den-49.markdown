@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 49. den"
+date:   2025-05-10 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Respektujte zvyklosti – uživatelé s kognitivní disabilitou spoléhají na známé vzorce; raději používejte standardní komponenty (např. tlačítko s textem „Hledat“ místo jen ikony bez popisku).
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/consistent-identification
+days: 49
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
+5

@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 50. den"
+date:   2025-05-09 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Testujte s uživateli – nechte obsah a rozhraní vyzkoušet lidmi s kognitivními obtížemi, abyste zjistili, které části jsou matoucí nebo složité na pochopení.
+wcag: https://www.w3.org/TR/coga-usable/#working-with-users-with-cognitive-and-learning-disabilities
+days: 50
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
+5

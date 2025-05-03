@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 51. den"
+date:   2025-05-08 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Pokud je k dispozici tzv. „easy-to-read“ verze textu (jednoduchá čeština), nabídněte ji jako alternativu pro uživatele s mentálním postižením nebo potížemi v porozumění.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/reading-level
+days: 51
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
+5
