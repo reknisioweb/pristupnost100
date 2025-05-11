@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 43. den"
+date:   2025-05-16 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Vložený obsah třetích stran (např. mapy, videopřehrávače) kontrolujte z hlediska přístupnosti – pokud není přístupný, nabídněte alternativu (popis cesty, odkaz na video s titulky apod.).
+wcag: https://www.w3.org/TR/WCAG22/#conformance-partial
+days: 43
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
+5

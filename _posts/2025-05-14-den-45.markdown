@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 45. den"
+date:   2025-05-14 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Publikujete-li soubory (PDF, DOCX apod.), vytvářejte je v přístupné formě – používejte strukturované nadpisy, textové ekvivalenty pro obrázky a správné pořadí čtení.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/focus-order
+days: 45
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
+5

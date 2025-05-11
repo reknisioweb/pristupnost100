@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 44. den"
+date:   2025-05-15 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    U PDF dokumentů zajistěte, že nejsou jen naskenované (obrázkové) – text v PDF by měl jít označit a přečíst čtečkou; doplňte také metadata a strukturu tagů.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/non-text-content
+days: 44
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
+5

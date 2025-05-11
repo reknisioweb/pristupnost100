@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 42. den"
+date:   2025-05-17 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Využívejte atributy `autocomplete` u formulářů pro běžné údaje (jméno, adresa, e-mail) – usnadníte tím vyplňování a snížíte pravděpodobnost chyby.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/identify-input-purpose
+days: 42
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
+5
