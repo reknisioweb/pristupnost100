@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Tip pro 38. den"
-date:   2025-05-21 07:59:00 +0200
+title:  "Tip pro 39. den"
+date:   2025-05-20 07:59:00 +0200
 categories: ""
 tags: [a11y, tip, Přístupnost100]
 tip: >- 
-    Vložte odkaz pro přeskočení na obsah hned na začátek stránky. Při ovládání pomocí klávesnice tak nemusí uživatel procházet celé menu při každém načtení stránky.
-wcag: https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks
-days: 38
+    Myslete na uživatele s fotosenzitivitou – žádný prvek by neměl blikat rychlostí 3–50 Hz. Vyhněte se rychlým zábleskům, případně je omezte pod tuto frekvenci.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold
+days: 39
 ---
 **#Přístupnost100: {{ page.tip }}**
 
