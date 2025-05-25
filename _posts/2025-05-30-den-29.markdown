@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 29. den"
+date:   2025-05-30 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Označte povinná pole červenou hvězdičkou a vysvětlete ji (např. „* Povinné pole“). Uživatelům čteček pomůže atribut required. 
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions
+
+days: 29
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"

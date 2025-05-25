@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 31. den"
+date:   2025-05-28 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Používejte skutečná tlačítka a odkazy, ne náhražky. Nativní <button> a <a> jsou přístupné a sémantické. Na rozdíl od klikacích <div>/<span> fungují správně s klávesnicí i čtečkami.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/name-role-value
+days: 31
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"

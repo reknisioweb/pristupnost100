@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 30. den"
+date:   2025-05-29 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Každé pole formuláře musí mít viditelný textový popisek (`<label>`) jasně sdělující jeho účel. Label propojte s polem přes atribut `for`. Správné popisky zlepší přístupnost.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions
+
+days: 30
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
