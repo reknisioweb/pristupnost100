@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Tip pro 28. den"
+date:   2025-05-31 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Poskytujte jasné instrukce a příklady přímo u polí. Uveďte formát dat a omezení 
+    (např. DD.MM.RRRR). Příklad snižuje chybovost i zátěž.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions
+
+days: 28
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
