@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 25. den"
+date:   2025-06-03 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Nabídněte uživateli pomoc či opravu. K chybové hlášce přidejte tip na opravu. Umožněte opravu údajů před odesláním, u složitých formulářů i souhrn k potvrzení.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion
+
+days: 25
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
