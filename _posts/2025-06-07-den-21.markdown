@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 21. den"
+date:   2025-06-07 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Přidávejte popisné titulky ke všem videím – zvyšují přístupnost i srozumitelnost, pomáhají neslyšícím i slyšícím.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded
+
+days: 21
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
