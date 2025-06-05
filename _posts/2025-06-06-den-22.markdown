@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "Tip pro 22. den"
+date:   2025-06-06 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Upozorňujte na vizuální změny i textově – např. pomocí `aria-live`, skrytého textu či jiného způsobu přístupného pro čtečky.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/status-messages
+
+days: 22
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
