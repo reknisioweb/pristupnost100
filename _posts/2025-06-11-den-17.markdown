@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 17. den"
+date:   2025-06-11 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Umístěte jasně označený odkaz „Zobrazit přepis“ hned vedle audio přehrávače či pod něj. Přepis vložte přímo na stránku jako text, ne jen ke stažení.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships
+days: 17
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
