@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 16. den"
+date:   2025-06-12 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Do přepisu přidávejte popis scény – např. kroky, otevírání dveří. Uvádějte je v závorkách či kurzívou, aby text porozuměli i neslyšící.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/audio-only-and-video-only-prerecorded
+days: 16
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
