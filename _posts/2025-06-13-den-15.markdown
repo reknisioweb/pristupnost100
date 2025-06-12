@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 15. den"
+date:   2025-06-13 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Nepouštějte zvuk automaticky – uživatele to ruší, zejména se čtečkou obrazovky či naslouchátkem. Dle WCAG musí jít zvuk o trvání nad tři sekundy snadno vypnout nebo ztlumit.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/audio-control
+days: 15
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
