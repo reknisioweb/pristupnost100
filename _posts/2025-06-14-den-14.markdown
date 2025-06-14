@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 14. den"
+date:   2025-06-14 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Poskytněte ovládání zvuku i pauzy přímo v přehrávači. Uživatelé potřebují rychle ztišit či upravit hlasitost nezávisle na systému.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/audio-control
+days: 14
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
