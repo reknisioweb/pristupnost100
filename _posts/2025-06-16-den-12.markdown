@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 12. den"
+date:   2025-06-16 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Zvažte přidání překladu do znakového jazyka k důležitému videu. Pro neslyšící je znakový jazyk často primární, psanému textu titulků nemusí plně rozumět.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded
+days: 12
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
