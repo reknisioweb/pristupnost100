@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 11. den"
+date:   2025-06-17 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Znakové jazyky se liší podle země. Pro české publikum použijte ČZJ, pro anglické ASL/BSL. Nejsou to jen „vizuální překlady“ mluveného jazyka.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/sign-language-prerecorded
+days: 11
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
