@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 9. den"
+date:   2025-06-19 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Vše musí jít ovládat z klávesnice – žádná funkce nesmí být závislá jen na myši. Ověřte, že vše lze projít a spustit jen pomocí kláves jako Tab, Enter či mezerník.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/keyboard
+days: 9
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
