@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 6. den"
+date:   2025-06-22 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Zachovejte viditelný fokus – nikdy ho neskrývejte bez náhrady. Upravte styl, ale vždy musí být jasně patrné, kde se uživatel nachází.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/focus-visible
+days: 6
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
