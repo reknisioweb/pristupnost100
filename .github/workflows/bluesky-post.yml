@@ -1,22 +1,46 @@
-# .github/workflows/bluesky-post.yml
 name: Publish to Bluesky
 
 on:
   schedule:
-    - cron: '15 6 * * *' # 15 minut po spuštění Netlify buildu
-  workflow_dispatch: # manuální spuštění
+    - cron: '15 6 * * *'      # 06:15 UTC (08:15 CEST) – denně
+  workflow_dispatch:          # možnost ručního spuštění
 
 jobs:
   post:
     runs-on: ubuntu-latest
     steps:
+      # 1) Zjisti aktuální datum a ulož rozhodnutí do výstupu
+      - name: Zkontroluj datum
+        id: check_date
+        run: |
+          current_date=$(date -u +"%Y-%m-%d")
+          echo "Dnešní UTC datum je: $current_date"
+          
+          # 2025-06-27 včetně se ještě provede, 2025-06-28 už ne
+          if [[ "$current_date" > "2025-06-27" ]]; then
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=true"  >> "$GITHUB_OUTPUT"
+          fi
+
+      # 2) Checkout – jen pokud má smysl pokračovat
       - uses: actions/checkout@v4
+        if: ${{ steps.check_date.outputs.should_run == 'true' }}
+
+      # 3) Nastavení Node.js
       - uses: actions/setup-node@v4
+        if: ${{ steps.check_date.outputs.should_run == 'true' }}
         with:
           node-version: 20
 
+      # 4) Instalace balíčků
       - run: npm install
-      - run: node .github/scripts/bluesky-post.js
+        if: ${{ steps.check_date.outputs.should_run == 'true' }}
+
+      # 5) Publikace na Bluesky
+      - name: Spusť skript Bluesky
+        if: ${{ steps.check_date.outputs.should_run == 'true' }}
+        run: node .github/scripts/bluesky-post.js
         env:
           BLUESKY_IDENTIFIER: ${{ secrets.BLUESKY_IDENTIFIER }}
-          BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
+          BLUESKY_PASSWORD:   ${{ secrets.BLUESKY_PASSWORD }}
