@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Tip pro 8. den"
-date:   2025-06-20 07:59:00 +0200
+title:  "Tip pro 2. den"
+date:   2025-06-26 07:59:00 +0200
 categories: ""
 tags: [a11y, tip, Přístupnost100]
 tip: >- 
-    Nepoužívejte tabindex bez důvodu – narušuje přirozený tok fokusování. Uživatelé klávesnice spoléhají na logické HTML pořadí. Kladné hodnoty raději vynechte.
-wcag: https://www.w3.org/WAI/WCAG22/Understanding/focus-order
-days: 8
+    Nevyžadujte složitá gesta ani klávesové zkratky – nabídněte ovládání jedním prstem, kurzorem či tlačítky. Zajistíte přístupnost pro více uživatelů.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/pointer-gestures
+days: 2
 ---
 **#Přístupnost100: {{ page.tip }}**
 

@@ -13,6 +13,6 @@ days: 11
 
 [{{ page.wcag }}][wcag]
 
-{{ page.days }} dnů zvývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+{{ page.days }} dnů zbývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
 
 [wcag]: {{ page.wcag }} "Předpis WCAG"

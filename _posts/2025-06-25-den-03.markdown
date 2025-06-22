@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Tip pro 3. den"
+date:   2025-06-25 07:59:00 +0200
+categories: ""
+tags: [a11y, tip, Přístupnost100]
+tip: >- 
+    Zvyšte toleranci pro nepřesné kliky – oddělte ovládací prvky mezerou a umožněte snadné vrácení akce. Zamezíte chybám a snížíte frustraci.
+wcag: https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data
+days: 3
+---
+**#Přístupnost100: {{ page.tip }}**
+
+[{{ page.wcag }}][wcag]
+
+{{ page.days }} dnů zbývá do účinnosti zákona o přístupnosti. Stačí drobnost, a zlepšíte lidem zážitek z webu.
+
+[wcag]: {{ page.wcag }} "Předpis WCAG"
