@@ -2,13 +2,26 @@ name: Scheduled Netlify Rebuild
 
 on:
   schedule:
-    - cron: '0 6 * * *' # Každý den v 8:00 (v Cronu je UTC čas)
-  workflow_dispatch: # manuální spuštění
+    - cron: '0 6 * * *'  # Každý den v 8:00 (UTC +2)
+  workflow_dispatch:
 
 jobs:
   trigger-netlify-build:
+    if: ${{ github.event_name == 'workflow_dispatch' || steps.check_date.outputs.run_build == 'true' }}
     runs-on: ubuntu-latest
     steps:
+      - name: Zkontroluj datum
+        id: check_date
+        run: |
+          current_date=$(date -u +"%Y-%m-%d")
+          echo "Aktuální datum: $current_date"
+          if [[ "$current_date" > "2025-06-27" ]]; then
+            echo "run_build=false" >> $GITHUB_OUTPUT
+          else
+            echo "run_build=true" >> $GITHUB_OUTPUT
+          fi
+
       - name: Call Netlify build hook
+        if: ${{ steps.check_date.outputs.run_build == 'true' }}
         run: |
           curl -X POST ${{ secrets.NETLIFY_BUILD_HOOK }}
