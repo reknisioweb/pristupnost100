@@ -5,7 +5,7 @@ date:   2025-06-24 07:59:00 +0200
 categories: ""
 tags: [a11y, tip, Přístupnost100]
 tip: >- 
-    Nepodceňte velikost klikacích prvků. Měly by mít alespoŇ 44 × 44 px. Pomáhá to všem, zejména lidem s motorickým omezením nebo na dotykových zařízeních.
+    Nepodceňte velikost klikacích prvků. Měly by mít alespoň 44 × 44 px. Pomáhá to všem, zejména lidem s motorickým omezením nebo na dotykových zařízeních.
 wcag: https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced
 days: 4
 ---
