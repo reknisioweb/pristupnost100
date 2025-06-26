@@ -6,5 +6,5 @@ layout: none
 {
   "tip": {{ "#Přístupnost100: " | append: post.tip | jsonify }},
   "link": {{ post.wcag | jsonify }},
-  "countdown": {{ post.days | append: " dnů zbývá do účinnosti zákona o přístupnosti. Často stačí drobnost a zlepšíte lidem zážitek z webu." | jsonify }}
+  "countdown": {{ post.days | append: " dny zbývají do účinnosti zákona o přístupnosti. Často stačí drobnost a zlepšíte lidem zážitek z webu." | jsonify }}
 }
